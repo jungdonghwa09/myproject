@@ -1,6 +1,6 @@
 package com.donghwa.repositories;
 
-import com.donghwa.entities.Member;
+import com.donghwa.models.member.Member;
 import com.donghwa.entities.QMember;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;

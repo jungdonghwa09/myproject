@@ -1,4 +1,4 @@
-package com.donghwa.entities;
+package com.donghwa.models.member;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

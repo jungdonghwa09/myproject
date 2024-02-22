@@ -2,7 +2,6 @@ package com.donghwa.models.member;
 
 import lombok.Builder;
 import lombok.Data;
-import com.donghwa.entities.Member;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

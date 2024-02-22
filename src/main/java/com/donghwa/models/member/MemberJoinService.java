@@ -4,7 +4,6 @@ import com.donghwa.api.members.validator.JoinValidator;
 import lombok.RequiredArgsConstructor;
 import com.donghwa.api.members.dto.RequestJoin;
 import com.donghwa.commons.constants.MemberType;
-import com.donghwa.entities.Member;
 import com.donghwa.repositories.MemberRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

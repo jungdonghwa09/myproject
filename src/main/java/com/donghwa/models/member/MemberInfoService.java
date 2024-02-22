@@ -2,7 +2,6 @@ package com.donghwa.models.member;
 
 import lombok.RequiredArgsConstructor;
 import com.donghwa.commons.constants.MemberType;
-import com.donghwa.entities.Member;
 import com.donghwa.repositories.MemberRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

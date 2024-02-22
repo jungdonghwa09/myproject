@@ -1,4 +1,4 @@
-package com.donghwa.entities;
+package com.donghwa.commons.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
@@ -11,9 +11,10 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
 
-@MappedSuperclass @Getter @Setter
+@Getter @Setter
+@MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-public abstract class BaseEntity {
+public abstract class Base {
     @CreatedDate
     @Column(updatable = false)
     private LocalDateTime createdAt;
@@ -21,4 +22,6 @@ public abstract class BaseEntity {
     @LastModifiedDate
     @Column(insertable = false)
     private LocalDateTime modifiedAt;
+
+    private LocalDateTime deletedAt;
 }
