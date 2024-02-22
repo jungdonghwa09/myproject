@@ -1,5 +1,6 @@
 
-import org.choongang.member.service.MemberInfo;
+package com.donghwa.commons;
+import com.donghwa.models.member.MemberInfo;
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
